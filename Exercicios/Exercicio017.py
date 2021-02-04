@@ -10,4 +10,4 @@ import math
 import random
 numero = random.randint(1, 100)
 raiz = math.sqrt(numero)
-print('A raiz de {} é aproximadamente {:.2}'.format(numero, raiz))
+print('A raiz de {} é aproximadamente {:.2f}'.format(numero, raiz))
