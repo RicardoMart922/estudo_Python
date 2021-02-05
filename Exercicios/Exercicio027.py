@@ -2,12 +2,7 @@
 # Quantas vezes aparece a letra "A";
 # Em que posição ela aparece a primeira vez;
 # Em que posição ela aparece a última vez.
-frase = str(input('Digite uma frase qualquer: '))
-minuscula = frase.count('a')
-maiuscula = frase.count('A')
-quantidadeA = (maiuscula + minuscula)
-print('A letra "A" ou "a" aparece {} vezes na frase.'.format(quantidadeA))
-primeira = frase.find('a')
-primeiraA = frase.find('A')
-ultima = frase.find('a')
-ultimaA = frase.find('A')
+frase = str(input('Digite uma frase qualquer: ')).strip().upper()
+print('A letra "A" aparece {} vezes na frase.'.format(frase.count('A')))
+print('A primeira letra "A" apareceu na posição {}'.format(frase.find('A')+1))
+print('A última letra "A" apareceu na posição {}'.format(frase.rfind('A')+1))
