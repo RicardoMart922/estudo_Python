@@ -3,8 +3,9 @@
 from random import randint
 numero = randint(0, 5)
 print('== Tente descobrir que número o computador pesou! ==')
+print('Computador: - Pensei em número, tente adivinhar que número é!')
 chute = int(input('Digite um número entre 0 e 5: '))
-print('O número é {}'.format(numero))
+print('Computador: - O número que eu pensei foi {}'.format(numero))
 if chute == numero:
     print('Parabéns! Você acertou!')
 else:
