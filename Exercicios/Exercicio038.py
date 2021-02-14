@@ -3,7 +3,3 @@
 precocasa = float(input('Informe o preço da casa: R$'))
 salario = float(input('Informe o seu salário: R$'))
 ano = int(input('Informe em quantos anos você pretende pagar: '))
-prestacao = salario // 12
-if prestacao < limite:
-
-elif
