@@ -33,5 +33,6 @@ elif opcao == 4:
     print('Devido a sua forma de pagamento, terá um acréscimo de R${:.2f} de juros'.format(juros))
     print('Sua compra será parcelada em {} vezes de R${:.2f}'.format(vezes, parcela))
 else:
+    valor = preco
     print('Opção inválida!')
 print('Sua compra de R${:.2f} vai custar R${:.2f}'.format(preco, valor))
