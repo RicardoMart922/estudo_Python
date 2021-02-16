@@ -4,9 +4,10 @@
 # 25 até 30: Sobrepeso;
 # 30 até 40: Obesidade;
 # Acima de 40: Obesidade mórbida.
-peso = float(input('Informe seu peso em kg: '))
-altura = float(input('Informe sua altura em m: '))
-imc = (peso/(altura**2))
+peso = float(input('Informe seu peso: (kg) '))
+altura = float(input('Informe sua altura: (m) '))
+imc = (peso / (altura**2))
+print('Seu IMC é de {:.1f}kg/m²')
 if imc < 18.5:
     print('Você está abaixo do peso.')
 elif imc >= 18.5 and imc <= 25.0:

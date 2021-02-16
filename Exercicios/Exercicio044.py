@@ -12,7 +12,7 @@ if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
         print('O triângulo formado é do tipo EQUILÁTERO.')
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
         print('O triângulo formado é do tipo ISÓCELES.')
-    elif lado1 != lado2 != lado3:
+    elif lado1 != lado2 or lado1 != lado3 or lado2 != lado3:
         print('O triângulo formado é do tipo ESCALENO.')
 else:
     print('Os segmentos informados não podem formar um triângulo.')
