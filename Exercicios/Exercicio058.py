@@ -22,9 +22,15 @@ for i in range(1, 5):
         else:
             if idade > velho:
                 velho = idade
-            nomemasc = nome
+                nomemasc = nome
     if sexo == 'FEMININO' or sexo == 'feminino' or sexo == 'Feminino' and idade < 20:
         qtdfeminino += 1
 print('A média de idade do grupo é {:.2f}'.format(media / 4.0))
-print('O nome do homem mais velho é {}'.format(nomemasc))
-print('A quantidade de mulheres com menos de 20 anos é {}'.format(qtdfeminino))
+if interador != 0:
+    print('O nome do homem mais velho é {}'.format(nomemasc))
+else:
+    print('Não há nenhum homem nesse grupo.')
+if sexo == 'FEMININO' or sexo == 'feminino' or sexo == 'Feminino': 
+    print('A quantidade de mulheres com menos de 20 anos é {}'.format(qtdfeminino))
+else:
+    print('Não há nenhuma mulher nesse grupo.')
