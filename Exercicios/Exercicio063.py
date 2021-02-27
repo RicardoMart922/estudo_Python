@@ -8,3 +8,4 @@ while i < 11:
     print('{}º Termo = {}'.format(i, elemento))
     elemento += razao
     i += 1
+    

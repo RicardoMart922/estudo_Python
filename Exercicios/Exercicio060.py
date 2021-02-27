@@ -21,3 +21,4 @@ if palpites == 1:
     print('\033[1;31mVocê é demais!\033[m')
 else:
     print('Você precisou de {} palpites para vencer o Computador!'.format(palpites))
+    

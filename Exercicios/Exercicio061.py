@@ -52,3 +52,4 @@ while opcao != 5:
         print('PROCESSANDO...')
         sleep(1.5)
         print('ENCERRADO.')
+        
