@@ -6,3 +6,4 @@ print('Os 10 Primeiros Termos')
 for i in range(1, 11):
     print('{}º Termo = {}'.format(i, elemento))
     elemento += razao
+    

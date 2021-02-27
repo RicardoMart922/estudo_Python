@@ -10,3 +10,4 @@ if junto == inverso:
     print('A frase digitada é um PALÍNDROMO.')
 else:
     print('A frase digitada não é um PALÍNDROMO.')
+    

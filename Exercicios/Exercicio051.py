@@ -3,3 +3,4 @@ numero = int(input('Digite um número: '))
 print('-='*3+' TABUADA DE {} '.format(numero)+'=-'*3)
 for i in range(0, 11):
     print('{} x {:2} = {}'.format(numero, i, i * numero))
+    

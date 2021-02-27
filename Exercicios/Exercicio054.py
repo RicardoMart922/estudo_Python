@@ -8,3 +8,4 @@ if contador == 2:
     print('O número {} é primo!'.format(numero))
 else:
     print('O número {} não é primo!'.format(numero))
+    
