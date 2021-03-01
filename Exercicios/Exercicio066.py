@@ -2,9 +2,11 @@
 qtdnumeros = 0
 soma = 0
 numero = 0
-while numero != 999:
+while True:
     numero = int(input('Digite um número: '))
+    if numero == 999:
+        break
     qtdnumeros += 1 
     soma += numero
-print('A quntidade de números digitados foi {}'.format(qtdnumeros - 1))
-print('A soma de todos os números digitados foi {}'.format(soma - 999)) 
+print('A quntidade de números digitados foi {}'.format(qtdnumeros))
+print('A soma de todos os números digitados foi {}'.format(soma)) 
