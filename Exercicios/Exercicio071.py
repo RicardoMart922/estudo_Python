@@ -8,7 +8,6 @@ nomeprodutobarato = ''
 preco = 0
 totgasto = 0
 menorpreco = 0
-
 i = 0
 while(True):
     nome = str(input('Nome: '))
@@ -24,5 +23,10 @@ while(True):
     if opcao == 'N':
         break
 print(f'O total gasto na compra foi R${totgasto:.2f}')
-print(f'A quantidade de produtos que  custam mais de R$1000,00 é {i}')
+if i == 0:
+    print('Nenhum produto custa mais de R$1000,00.')
+if i == 1:
+    print('Apenas 1 produto custam mais de R$1000,00.')
+else:
+    print(f'{i} produtos custam mais de R$1000,00.')
 print('O nome do produto mais barato é {}.'.format(nomeprodutobarato))
