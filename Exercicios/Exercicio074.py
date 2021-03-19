@@ -12,8 +12,7 @@ print(f'Os últimos 4 colocados:')
 for j in range(16, len(tabela)):
     print(f'{j+1}º - {tabela[j]}')
 print('-=-' * 10)
-ordenar = sorted(tabela[0:21])
-print('-=-' * 10)
+ordenar = sorted(tabela)
 print(f'Ordem alfabética:')
 for k in range(0, len(tabela)):
     print(f'{k+1}º - {ordenar[k]}')
